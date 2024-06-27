@@ -1,0 +1,57 @@
+/******w**************
+    
+    Assignment 4 Stylesheet
+    Name: Jiale Cao
+    Date: Jun 26
+    Description: API
+
+*********************/
+#search-form, h1{
+    margin: 40px 0 0 60px;
+}
+#search-form input{
+    font-size: 14px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    text-indent: 1em;
+}
+#search-form button{
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.result{
+    font-size: 14px;
+    padding: 20px 20px 0 20px;
+    border: 1px solid #ececec;
+    cursor: pointer;
+}
+.active{
+    background: #f3f3f3;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+#map { 
+    border: 1px solid #ececec;
+    height: 500px;
+    width: 500px;
+ }
+ #results{
+    border: 1px solid #ececec;
+    width: 500px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+ }
